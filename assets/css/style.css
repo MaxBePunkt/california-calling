@@ -24,13 +24,13 @@ font-family: $Larish;
 }
 @keyframes bannerRotate {
   0% {
-    transform: rotate(42deg) translate(0, 40vh);
+    transform: rotate(42deg) translate(0, 300px);
   }
   50% {
-    transform: rotate(42deg) translate(40vw, 40vh);
+    transform: rotate(42deg) translate(500px, 300px);
   }
   100% {
-    transform: rotate(42deg) translate(0, 40vh);
+    transform: rotate(42deg) translate(0, 300px);
   }
 }
 /* 
