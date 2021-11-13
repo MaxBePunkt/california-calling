@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* 
+Farben: 
+#fff
+#000
+*/
+$white: #fff;
+$black: #000;
+/* 
+fonts: 
+font-family: $WorkSans;
+font-family: $Larish;
+
+*/
+@font-face {
+  font-family: LarishNeue;
+  src: url("../fonts/LarishNeueSemibold.woff");
+}
+$Larish: LarishNeue;
+$WorkSans: "Work Sans", sans-serif;
+
+@keyframes rotation {
+  from {
+    transform: translate(45%, -20%) rotate(0deg);
+  }
+  to {
+    transform: translate(45%, -20%) rotate(359deg);
+  }
+}
+@keyframes bannerRotate {
+  0% {
+    transform: rotate(42deg) translate(0, 40vh);
+  }
+  50% {
+    transform: rotate(42deg) translate(40vw, 40vh);
+  }
+  100% {
+    transform: rotate(42deg) translate(0, 40vh);
+  }
+}
